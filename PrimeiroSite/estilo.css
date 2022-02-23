@@ -1,0 +1,149 @@
+/* Reset pagina */
+
+*{
+    padding: 0;
+    margin:0;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#82b0d9;
+}
+
+a{
+    text-decoration: none;
+    color:#0477BF
+}
+a:hover{
+    color:#0468BF
+}
+ul{
+    list-style: none;
+}
+h1{
+    color:#034AA6;
+}
+
+/* geral */
+.row{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.content{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.linha1{
+    padding: 10px 0;
+}
+.cabecalho-logo{
+    float: left;
+}
+.cabecalho-logo h1 a{
+    color:#82b0d9;
+
+}
+.projeto{
+    color:#959595;
+}
+.teste1{
+    color:#034AA6;
+}
+.cabecalho-menu{
+    float: right;
+    padding: 20px 0;
+    
+}
+.cabecalho-menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*Segunda linha*/
+.linha2{
+    background-color: #034AA6 ;
+    padding: 20px 0;
+    text-align: center;
+    
+
+}
+.linha2 .content{
+    width: 620px;
+}
+.linha2 .content h1{
+    color: #fff;
+
+}
+
+/*Menu lateral conteudo*/
+.linha3{
+    padding: 20px 0;
+}
+.lateral-menu{
+    float:left;
+    width:160px;
+    font-size: 18px;
+}
+.lateral-menu h1{
+    font-size: 20px;
+}
+.lateral-menu li{
+    margin-top: 20px;
+}
+.conteudo-linha3{
+    float:right;
+    width: 840px;
+
+}
+.conteudo-linha3 h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.conteudo-linha3 p{
+    margin-bottom: 20px;
+    color:#82b0d9;
+}
+.conteudo-linha3 h1:hover, .conteudo-linha3 p:hover{
+    text-decoration: underline;
+}
+
+/*Ultimos artigos linha4*/
+.linha4{
+    background-color: #82b0d9;
+    padding:  30px 0;
+}
+.artigos-title{
+    
+    color:#034AA6;
+    margin:0 0 15px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #034AA6;
+}
+.artigos-col{
+    float: left;
+    text-align: justify;
+    width: 30.66%;
+}
+.artigos-col:nth-of-type(3){
+    margin-right: 4%;
+    margin-left: 4%;
+    
+}
+.artigos-col h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.artigos-col a{
+    color:#034AA6
+}
+.artigos-col a:hover{
+    text-decoration: underline;
+}
+/*Rodapé*/
+.rodape{
+    text-align: center;
+    padding: 20px 0;
+}
